@@ -13,4 +13,9 @@ public class CreatedTrelloCardTrello {
 
     @JsonProperty("card")
     private int card;
+
+    public CreatedTrelloCardTrello(int board, int card) {
+        this.board = board;
+        this.card = card;
+    }
 }

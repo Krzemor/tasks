@@ -13,4 +13,9 @@ public class CreatedTrelloCardBadge {
 
     @JsonProperty("attachmentsByType")
     private CreatedTrelloCardAttachments attachmentsByType;
+
+    public CreatedTrelloCardBadge(int votes, CreatedTrelloCardAttachments attachmentsByType) {
+        this.votes = votes;
+        this.attachmentsByType = attachmentsByType;
+    }
 }

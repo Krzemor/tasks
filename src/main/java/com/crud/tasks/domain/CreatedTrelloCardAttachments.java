@@ -10,4 +10,8 @@ public class CreatedTrelloCardAttachments {
 
     @JsonProperty("trello")
     private CreatedTrelloCardTrello trello;
+
+    public CreatedTrelloCardAttachments(CreatedTrelloCardTrello trello) {
+        this.trello = trello;
+    }
 }

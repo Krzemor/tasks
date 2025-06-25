@@ -13,4 +13,10 @@ public class CreatedTrelloCard {
 
     @JsonProperty("badges")
     private CreatedTrelloCardBadge badges;
+
+    public CreatedTrelloCard(String id, CreatedTrelloCardBadge badges) {
+        this.id = id;
+        this.badges = badges;
+    }
+
 }
