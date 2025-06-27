@@ -18,4 +18,6 @@ public class CreatedTrelloCardTrello {
         this.board = board;
         this.card = card;
     }
+
+    public CreatedTrelloCardTrello() {}
 }

@@ -14,4 +14,6 @@ public class CreatedTrelloCardAttachments {
     public CreatedTrelloCardAttachments(CreatedTrelloCardTrello trello) {
         this.trello = trello;
     }
+
+    public CreatedTrelloCardAttachments() {}
 }
